@@ -10,6 +10,9 @@
     margin: 0;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -41,11 +44,23 @@
     border-radius: 5px;
     margin-left: 30px;
 }
+.secton-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-desc{
+    font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* header style */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,right bottom;
+    padding-top: 50px;
 }
 
 /* Nav style */
@@ -53,7 +68,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
+    /* padding-top: 50px; */
 }
 nav ul{
     display: flex;
@@ -97,4 +113,28 @@ nav ul li a{
 }
 .banner-profile-img{
     width: 580px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about .secton-title{
+    margin-bottom: 30px;
+}
+.about .section-desc{
+    margin-bottom: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about .item-title{
+    font-size: 20px;
+}
+.about .item-desc{
+    font-size: 20px;
+    font-weight: bold;
 }
